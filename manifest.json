@@ -1,0 +1,19 @@
+{
+  "name": "Stem Player",
+  "description": "Upload entire albums to your stem player automatically",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "scripting",
+    "tabs",
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": { "16": "icon16.png",
+           "32": "icon32.png",
+           "64": "icon64.png",
+          "128": "icon128.png" }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Stem Player</title>
+    <style>
+      @font-face {
+        font-family: "Univers";
+        src: URL("Univers LT 67 Bold Condensed.ttf") format("truetype");
+      }
+      body {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        font-family: "Univers", Helvetica, sans-serif;
+        line-height: 1.3;
+        box-sizing: border-box;
+      }
+      button {
+        background-color: white;
+        font-weight: 800;
+        border: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+
+        font-size: 20px;
+        font-family: "Univers", Helvetica, sans-serif;
+      }
+
+      textarea {
+        border: 2px solid black;
+        font-weight: 700;
+        font-size: 1.1rem;
+        padding: 10px;
+      }
+
+      div {
+        font-size: 1.4rem;
+        font-style: unset;
+        font-variant: normal;
+      }
+
+      #hint {
+        font-size: 0.8rem;
+        font-style: unset;
+        font-variant: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea
+      placeholder="PLACE EACH LINK ON A SEPARATE LINE"
+      rows="20"
+      cols="50"
+      id="links-field"
+    ></textarea>
+
+    <button id="run-button">[UPLOAD ALL]</button>
+
+    <script src="run.js"></script>
+  </body>
+</html>
