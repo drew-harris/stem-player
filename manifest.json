@@ -1,7 +1,7 @@
 {
-  "name": "Stem Player",
+  "name": "Stem Player Album Upload",
   "description": "Upload entire albums to your stem player automatically",
-  "version": "1.0",
+  "version": "2.0",
   "manifest_version": 3,
   "permissions": [
     "scripting",
